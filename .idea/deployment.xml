@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="weizhang@121.48.163.95:22 password (3)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="weizhang@121.48.163.95:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data05/weizhang_projects/rawdata_willimas_process" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="weizhang@121.48.163.95:22 password (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data05/weizhang_projects/rawdata_willimas_process" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
