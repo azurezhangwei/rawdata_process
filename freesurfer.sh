@@ -26,7 +26,7 @@ mkdir SUBJECTS_DIR
 export SUBJECTS_DIR
 
 # 定义并行任务数（根据系统 CPU 核心数调整）
-PARALLEL_JOBS=30
+PARALLEL_JOBS=1
 
 # 获取所有被试和会话的任务列表
 TASKS=()
@@ -34,6 +34,7 @@ for subject in $(ls $BIDS_DIR | grep sub-); do
     for session in $(ls $BIDS_DIR/$subject | grep ses-); do
         T1w=$(ls $BIDS_DIR/$subject/$session/anat/*T1w.nii.gz)
         output_dir="${subject}_${session}"
+        echo "${output_dir}"
         TASKS+=("recon-all -i $T1w -s $output_dir -all")
     done
 done
