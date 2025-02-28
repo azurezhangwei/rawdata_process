@@ -1,2 +1,0 @@
-/data05/weizhang_projects/rawdata-willimas/sub-09/ses-03/dwi/sub-09_ses-03_dwi_QCed.nrrd
-/data05/weizhang_projects/rawdata-willimas/sub-24/ses-03/dwi/sub-24_ses-03_dwi_QCed.nrrd

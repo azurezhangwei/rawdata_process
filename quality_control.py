@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 import pandas as pd
 '''
-check center slicer image for dwi and T1 and T2 with BIDS standard
+check center slicer image of dwi and T1 and T2 with BIDS standard
 '''
 # 定义BIDS根目录
 BIDS_DIR = "/data05/weizhang_projects/rawdata-willimas"

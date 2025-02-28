@@ -26,7 +26,7 @@ mkdir SUBJECTS_DIR
 export SUBJECTS_DIR
 
 # 定义并行任务数（根据系统 CPU 核心数调整）
-PARALLEL_JOBS=1
+PARALLEL_JOBS=50
 
 # 获取所有被试和会话的任务列表
 TASKS=()
