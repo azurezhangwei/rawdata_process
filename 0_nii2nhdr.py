@@ -1,6 +1,10 @@
 import os
 import conversion
 
+'''
+source /data01/software/bashrc
+conda activate pnlpipe/pnlpipe3
+'''
 # 定义BIDS根目录
 bids_root = '/data05/weizhang_projects/rawdata-willimas'
 

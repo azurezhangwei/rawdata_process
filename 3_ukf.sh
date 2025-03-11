@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# source /data01/software/bashrc
+
 # 设置 Slicer 相关库路径
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data01/software/Slicer-5.2.2-linux-amd64/lib/Slicer-5.2
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data01/software/Slicer-5.2.2-linux-amd64/NA-MIC/Extensions-31382/UKFTractography/lib/Slicer-5.2/qt-loadable-modules

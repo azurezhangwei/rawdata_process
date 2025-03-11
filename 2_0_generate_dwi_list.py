@@ -1,5 +1,9 @@
 import os
 
+'''
+any python environment
+'''
+
 def find_dwi_files(bids_root):
     dwi_files = []
     for root, dirs, files in os.walk(bids_root):

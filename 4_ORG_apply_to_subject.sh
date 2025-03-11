@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# should be executed in the terminal with X server like MobeXterm or Nomachine
+# source /data01/software/bashrc
+
 # BIDS 目录路径
 BIDS_DIR="/data05/weizhang_projects/rawdata-willimas"
 
